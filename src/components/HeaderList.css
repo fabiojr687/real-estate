@@ -3,6 +3,9 @@
   font-style: normal;
   font-weight: normal;
 }
+.toolbar-nav-items {
+  margin: 50px 0px 50px 0px;
+}
 
 .toolbar-nav-items a {
   color: #3E3E3E;
