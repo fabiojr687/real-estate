@@ -1,0 +1,99 @@
+/* section 1 start*/
+
+.sections-1 {
+    height: 795px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 720px;
+}
+
+.sections-1-texts {
+    width: 35vw;
+    min-width: 400px;
+    margin: 0px 20px 0px 0px;
+}
+
+.section-1-title {
+    font-family: "Khula";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    color: #3E3E3E;
+}
+
+.section-1-subtitle {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #3E3E3E;
+}
+
+.section-1-texts-link {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFA800;
+}
+
+.section-1-image-container {
+    width: 45vw;
+    min-width: 450px;
+    height: 450px;
+    overflow: hidden;
+    background: #C4C4C4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1-image-play {
+    position: absolute;
+    width: 562px;
+    height: 120px;
+    top: 1230px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* fonte */
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 170%;
+    color: #282F65;
+}
+
+.section-1-play-button {
+    margin: 0px 60px 0px 60px;
+}
+
+@media screen and (max-width: 1100px) {
+    .sections-1-texts {
+        width: 100vw;
+        min-width: 720px;
+        margin: 0px;
+    }
+    .section-1-image-container {
+        width: 100vw;
+        min-width: 720px;
+    }
+
+    .section-1-image-play {
+        position: absolute;
+        top: 1530px;
+    }
+    
+}
+
+/* section 1 end */
+
+/* section 2 start */
