@@ -9,11 +9,11 @@ const HeaderList = () => (
         additionalClass="fato-point" additional="." >Fato</HeaderListItems>
       <HeaderListItems />
       <HeaderListItems to="/"  >Home</HeaderListItems>
-      <HeaderListItems to="/" name="About us" >About us</HeaderListItems>
-      <HeaderListItems to="/" name="Service" >Service</HeaderListItems>
-      <HeaderListItems to="/" name="Blog" >Blog</HeaderListItems>
-      <HeaderListItems to="/" name="Testimonials" >Testimonials</HeaderListItems>
-      <HeaderListItems to="/" name="Contact" >Contact</HeaderListItems>
+      <HeaderListItems to="/" >About us</HeaderListItems>
+      <HeaderListItems to="/" >Service</HeaderListItems>
+      <HeaderListItems to="/" >Blog</HeaderListItems>
+      <HeaderListItems to="/" >Testimonials</HeaderListItems>
+      <HeaderListItems to="/" >Contact</HeaderListItems>
       <HeaderListItems />
       <HeaderListItems />
       <HeaderListItems />
