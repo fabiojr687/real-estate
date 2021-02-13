@@ -3,7 +3,7 @@ import './SimpleCard.css';
 
 const SimpleCard = props => (
     <div className={props.classes}>
-        <img className="section-2-icons" src={props.icon} alt="Buy icon" />
+        <img className="section-2-icons" src={props.icon} alt={props.iconAlt} />
         <h3 className="section-2-subtitle">{props.title}</h3>
         <p className="section-2-explanation">{props.children}</p>
     </div>

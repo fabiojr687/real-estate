@@ -1,22 +1,24 @@
-.section {
+.header-section {
     height: 795px;
-    padding: 0px 80px 0px 80px;
+    padding: 0em 2em;
 }
 
-.image-border {
-    min-width: 680px;
+.header-image-border {
+    min-width: 700px;
     height: 501px;
     overflow: hidden;
     border-radius: 4px;
 }
-
-.image-texts {
+.header-image {
+    width: 2160px;
+}
+.header-image-texts {
     position: absolute;
     top: 245px;
     left: 140px;
 }
 
-.imagem-texts-title {
+.header-imagem-texts-title {
     font-family: "Khula";
     font-style: normal;
     font-weight: bold;
@@ -28,7 +30,7 @@
     margin: 0;
 }
 
-.imagem-texts-sub-title {
+.header-imagem-texts-sub-title {
     font-family: "Nunito Sans";
     font-style: normal;
     font-weight: normal;
@@ -38,10 +40,4 @@
     width: 465px;
     height: 68px;
     margin: 0;
-}
-
-@media screen and (max-width: 950px) {
-    .section {
-        padding: 0px 20px 0px 20px;
-    }
 }

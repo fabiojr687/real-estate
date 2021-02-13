@@ -5,8 +5,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-width: 680px;
-    padding: 0px 80px 0px 80px;
+    padding: 0em 2em;
 }
 
 .sections-1-texts {
@@ -53,6 +52,10 @@
     justify-content: center;
 }
 
+.section-1-image {
+    width: 2160px;
+}
+
 .section-1-image-play {
     position: absolute;
     width: 400px;
@@ -77,12 +80,6 @@
     margin: 0px 60px 0px 60px;
 }
 
-@media screen and (max-width: 950px) {
-    .sections-1 {
-        padding: 0px 20px 60px 20px;
-    }
-}
-
 @media screen and (max-width: 1100px) {
     .sections-1 {
         height: 796px;
@@ -90,12 +87,10 @@
     }
     .sections-1-texts {
         width: 100vw;
-        min-width: 680px;
         margin: 0px;
     }
     .section-1-image-container {
         width: 100vw;
-        min-width: 680px;
     }
     .section-1-image-play {
         position: absolute;
@@ -114,7 +109,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    min-width: 735px;
+    padding: 0em 2em;
 }
 
 .section-2-title {
@@ -128,4 +123,86 @@
     text-align: center;
     color: #3E3E3E;
     padding-top: 50px;
+}
+
+@media screen and (max-width: 798px) {
+    .section-2 {
+        height: 995px;
+    }
+}
+
+/* section 3 */
+
+.section-3 {
+    background: #FAFAFA;
+    height: 795px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 2em;
+}
+
+.section-3-image-container {
+    height: 683px;
+    width: 42vw;
+    max-width: 505px;
+    min-width: 350px;
+    overflow: hidden;
+    background: #C4C4C4;
+    border-radius: 8px;
+}
+
+.section-3-texts-container {
+    width: 40vw;
+    max-width: 610px;
+    min-width: 300px;
+}
+
+.section-3-options {
+    display: flex;
+}
+
+.section-3-options h3 {
+    margin: 0px;
+}
+
+.section-3-options p {
+    margin: 0px;
+}
+
+.section-3-number-container {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFA800;
+    background-color: rgba(255, 168, 0, 0.2);
+    border-radius: 8px;
+}
+
+.section-3-number {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170%;
+    color: #FFA800;
+}
+
+.section-3-explanation {
+    max-width: 544px;
+}
+
+@media screen and (max-width: 1120px) {
+    .section-3 {
+        justify-content: space-evenly;
+    }
+    .section-3-texts-container {
+        width: 30vw;
+    }
 }
