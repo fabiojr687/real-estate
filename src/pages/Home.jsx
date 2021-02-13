@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Body from '../components/Body';
 
 const Section = () => (
-    <div>
+    <div className="home-container">
         <Header />
         <Body />
     </div>

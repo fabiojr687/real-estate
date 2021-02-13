@@ -1,17 +1,15 @@
 /* section 1 start*/
 
-.sections-1 {
-    height: 600px;
+.section-1 {
+    height: 700px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0em 2em;
+    align-items: center;
+    padding: 0px 100px;
 }
 
-.sections-1-texts {
-    width: 35vw;
-    min-width: 400px;
-    margin: 0px 20px 0px 0px;
+.section-1-texts {
+    width: 505px;
 }
 
 .section-1-title {
@@ -21,15 +19,17 @@
     font-size: 36px;
     line-height: 130%;
     color: #3E3E3E;
+    height: 94px;
 }
 
-.section-1-subtitle {
+.section-1-explanation {
     font-family: "Nunito Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 170%;
     color: #3E3E3E;
+    height: 186px;
 }
 
 .section-1-texts-link {
@@ -39,11 +39,12 @@
     font-size: 16px;
     line-height: 150%;
     color: #FFA800;
+    width: 83px;
+    height: 24px;
 }
 
 .section-1-image-container {
-    width: 45vw;
-    min-width: 450px;
+    width: 610px;
     height: 450px;
     overflow: hidden;
     background: #C4C4C4;
@@ -53,14 +54,14 @@
 }
 
 .section-1-image {
-    width: 2160px;
+    width: 1002px;
 }
 
 .section-1-image-play {
     position: absolute;
-    width: 400px;
+    width: 562px;
     height: 120px;
-    top: 1230px;
+    top: 1260px;
     background: #FFFFFF;
     box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -68,7 +69,7 @@
     justify-content: center;
     align-items: center;
     /* fonte */
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -78,25 +79,6 @@
 
 .section-1-play-button {
     margin: 0px 60px 0px 60px;
-}
-
-@media screen and (max-width: 1100px) {
-    .sections-1 {
-        height: 796px;
-        padding-bottom: 60px;
-    }
-    .sections-1-texts {
-        width: 100vw;
-        margin: 0px;
-    }
-    .section-1-image-container {
-        width: 100vw;
-    }
-    .section-1-image-play {
-        position: absolute;
-        top: 1530px;
-        width: 600px;
-    }
 }
 
 /* section 1 end */
@@ -109,12 +91,18 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 0em 2em;
+    padding: 0px 100px;
+}
+
+.section-2-title-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .section-2-title {
-    width: 100vw;
-    min-width: 600px;
+    width: 345px;
+    height: 94px;
     font-family: "Khula";
     font-style: normal;
     font-weight: bold;
@@ -125,42 +113,70 @@
     padding-top: 50px;
 }
 
-@media screen and (max-width: 798px) {
-    .section-2 {
-        height: 995px;
-    }
-}
-
 /* section 3 */
 
 .section-3 {
     background: #FAFAFA;
     height: 795px;
+    /* width: 1240px; */
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0em 2em;
+    padding: 0px 100px;
+}
+
+.section-3-image-ico-container {
+    width: 560px;
+    height: 683px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .section-3-image-container {
+    width: 505px;
+    min-width: 505px;
     height: 683px;
-    width: 42vw;
-    max-width: 505px;
-    min-width: 350px;
     overflow: hidden;
     background: #C4C4C4;
     border-radius: 8px;
 }
 
+.section-3-icon-1-container {
+    width: 90px;
+    min-width: 90px;
+    height: 90px;
+    background-color: #1799B6;
+    border-radius: 24px 4px;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    box-shadow: 5px -4px 10px rgba(23, 153, 182, 0.9);
+}
+
+.section-3-icon-2-container {
+    width: 90px;
+    min-width: 90px;
+    height: 90px;
+    background-color: #17B673;
+    border-radius: 4px 24px;
+    position: absolute;
+    right: 0px;
+    bottom: 90px;
+    box-shadow: -5px -4px 10px rgba(23, 182, 115, 0.9);
+}
+
+.section-3-icon {
+    width: 100%;
+}
+
 .section-3-texts-container {
-    width: 40vw;
-    max-width: 610px;
-    min-width: 300px;
+    width: 610px;
 }
 
 .section-3-options {
     display: flex;
+    padding: 10px 0px 10px 0px;
 }
 
 .section-3-options h3 {
@@ -194,15 +210,14 @@
     color: #FFA800;
 }
 
-.section-3-explanation {
-    max-width: 544px;
-}
-
-@media screen and (max-width: 1120px) {
-    .section-3 {
-        justify-content: space-evenly;
+@media screen and (max-width: 1400px) {
+    .section-1 {
+        padding: 0px 30px;
     }
-    .section-3-texts-container {
-        width: 30vw;
+    .section-2 {
+        padding: 0px 30px;
+    }
+    .section-3 {
+        padding: 0px 30px;
     }
 }

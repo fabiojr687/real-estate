@@ -1,6 +1,5 @@
 .section-2-options-container {
-    width: 25vw;
-    min-width: 210px;
+    width: 314px;
     height: 404px;
     text-align: center;
     padding: 15px;
@@ -10,14 +9,13 @@
     width: 80px;
     height: 80px;
     margin-top: 32px;
-    /* test */
     background: #FFA800;
-    box-shadow: -2px 4px 10px rgba(255, 168, 0, 0.25);
+    box-shadow: -2px 4px 10px rgba(255, 168, 0, 0.9);
     border-radius: 8px;
 }
 
 .section-2-subtitle {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -26,7 +24,7 @@
 }
 
 .section-2-explanation {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

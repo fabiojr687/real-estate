@@ -7,8 +7,7 @@
 .search-bar-container{
     position: absolute;
     top: 586px;
-    width: 70vw;
-    min-width: 710px;
+    width: 1030px;
     height: 104px;
     display: flex;
     justify-content: space-between;
@@ -20,7 +19,7 @@
 }
 
 .search-bar-top-text {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -29,7 +28,7 @@
 }
 
 .search-bar-bottom-text {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -38,7 +37,7 @@
 }
 
 .search-bar-button-search {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
