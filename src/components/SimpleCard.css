@@ -1,0 +1,42 @@
+.section-2-options-container {
+    width: 25vw;
+    min-width: 210px;
+    height: 404px;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-2-icons {
+    width: 80px;
+    height: 80px;
+    margin-top: 32px;
+    /* test */
+    background: #FFA800;
+    box-shadow: -2px 4px 10px rgba(255, 168, 0, 0.25);
+    border-radius: 8px;
+}
+
+.section-2-subtitle {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170%;
+    color: #3E3E3E;
+}
+
+.section-2-explanation {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #626262;
+}
+
+.section-2-options-container:hover {
+    background: #FAFAFA;
+    box-shadow: 0px 16px 64px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}

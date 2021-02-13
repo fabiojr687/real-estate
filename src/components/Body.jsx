@@ -3,6 +3,7 @@ import './Body.css';
 import homePic from '../images/home.jpg';
 import { Link } from 'react-router-dom';
 import homeIcon from '../images/home-ico.svg';
+import SimpleCard from '../components/SimpleCard';
 
 const Body = () => (
 
@@ -31,27 +32,15 @@ const Body = () => (
         </section>        {/* section 1 end */}
         <section className="section-2">
             <h2 className="section-2-title">Here is a little about what we do</h2>
-            <div className="section-2-options-container">
-                <img className="section-2-icons" src={homeIcon} alt="Buy icon" />
-                <h3 className="section-2-subtitle">Buy a home</h3>
-                <p className="section-2-explanation">Find your place with immersive photo experience and the most listings,
-                including things you won’t find anywhere else
-                </p>
-            </div>
-            <div className="section-2-options-container section-2-featured">
-                <img className="section-2-icons" src={homeIcon} alt="Buy icon" />
-                <h3 className="section-2-subtitle">Buy a home</h3>
-                <p className="section-2-explanation">Find your place with immersive photo experience and the most listings,
-                including things you won’t find anywhere else
-                </p>
-            </div>
-            <div className="section-2-options-container">
-                <img className="section-2-icons" src={homeIcon} alt="Buy icon" />
-                <h3 className="section-2-subtitle">Buy a home</h3>
-                <p className="section-2-explanation">Find your place with immersive photo experience and the most listings,
-                including things you won’t find anywhere else
-                </p>
-            </div>
+            <SimpleCard classes="section-2-options-container" icon={homeIcon}
+                title="Buy a home">Find your place with immersive photo experience and the most
+            listings, including things you won’t find anywhere else</SimpleCard>
+            <SimpleCard classes="section-2-options-container" icon={homeIcon}
+                title="Sell a home">Wheather you sell with new Zilow offers or take another
+                approach, we’ll help you navigate the path to a successful sale</SimpleCard>
+            <SimpleCard classes="section-2-options-container" icon={homeIcon}
+                title="Rent a home">We’re creating a seamless online bussiness experience from
+                shopping on the largest rental network, to applying, to paying rent</SimpleCard>
         </section>
     </div>
 );
