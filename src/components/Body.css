@@ -1,11 +1,12 @@
 /* section 1 start*/
 
 .sections-1 {
-    height: 795px;
+    height: 600px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-width: 720px;
+    min-width: 680px;
+    padding: 0px 80px 0px 80px;
 }
 
 .sections-1-texts {
@@ -54,7 +55,7 @@
 
 .section-1-image-play {
     position: absolute;
-    width: 562px;
+    width: 400px;
     height: 120px;
     top: 1230px;
     background: #FFFFFF;
@@ -76,24 +77,98 @@
     margin: 0px 60px 0px 60px;
 }
 
+@media screen and (max-width: 950px) {
+    .sections-1 {
+        padding: 0px 20px 60px 20px;
+    }
+}
+
 @media screen and (max-width: 1100px) {
+    .sections-1 {
+        height: 796px;
+        padding-bottom: 60px;
+    }
     .sections-1-texts {
         width: 100vw;
-        min-width: 720px;
+        min-width: 680px;
         margin: 0px;
     }
     .section-1-image-container {
         width: 100vw;
-        min-width: 720px;
+        min-width: 680px;
     }
-
     .section-1-image-play {
         position: absolute;
         top: 1530px;
+        width: 600px;
     }
-    
 }
 
 /* section 1 end */
 
 /* section 2 start */
+
+.section-2 {
+    background: #FAFAFA;
+    height: 795px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-width: 735px;
+}
+
+.section-2-title {
+    width: 100vw;
+    min-width: 600px;
+    font-family: "Khula";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #3E3E3E;
+    padding-top: 50px;
+}
+
+.section-2-options-container {
+    width: 25vw;
+    min-width: 210px;
+    height: 404px;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-2-icons {
+    width: 80px;
+    height: 80px;
+    margin-top: 32px;
+    /* test */
+    background: #FFA800;
+    box-shadow: -2px 4px 10px rgba(255, 168, 0, 0.25);
+    border-radius: 8px;
+}
+
+.section-2-subtitle {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170%;
+    color: #3E3E3E;
+}
+
+.section-2-explanation {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #626262;
+}
+
+.section-2-featured {
+    background: #FAFAFA;
+    box-shadow: 0px 16px 64px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
