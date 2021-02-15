@@ -4,6 +4,7 @@ import homePic from '../images/home.jpg';
 import { Link } from 'react-router-dom';
 import homeIcon from '../images/home-ico.svg';
 import SimpleCard from '../components/SimpleCard';
+import AnnouncementCard from '../components/AnnouncementCard';
 
 const Body = () => (
 
@@ -51,10 +52,10 @@ const Body = () => (
                 </div>
 
                 <div className="section-3-icon-1-container">
-                    <img className="section-3-icon" src={homeIcon} alt="Negociação" />
+                    <img className="section-3-icon" src={homeIcon} alt="Negotiation" />
                 </div>
                 <div className="section-3-icon-2-container">
-                    <img className="section-3-icon" src={homeIcon} alt="Negociação" />
+                    <img className="section-3-icon" src={homeIcon} alt="Negotiation" />
                 </div>
             </div>
             <div className="section-3-texts-container">
@@ -103,6 +104,39 @@ const Body = () => (
             </div>
 
         </section>{/* section 3 end */}
+
+        <section className="section-4">{/* section 4 start */}
+            <div className="section-4-title-container">
+                <h2 className="section-4-title">Let's explore the property of your dreams</h2>
+                <p className="section-4-explanation">Various models of houses, apartments, land
+                that we offer for your dream home
+                </p>
+            </div>
+
+            <div className="section-4-small-cards">
+                <AnnouncementCard photo={homePic} price="375,000" name="Hilltruck House"
+                    location="1187 Lake Forest City, TN" baths="2" beds="4" sqft="2980" />
+
+                <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
+                    location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+
+
+                <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
+                    location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+
+                <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
+                    location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+            </div>
+
+            <div className="section-4-larger-card">
+                <AnnouncementCard photo={homePic} price="890,000" name="Richyaris Apartment" size="larger"
+                    location="3341 Chardonnay State, WA" baths="10" beds="24" sqft="10680" />
+            </div>
+
+            <div className="section-4-more-container">
+                <Link className="section-4-more-button">View more</Link>
+            </div>
+        </section>{/* section 4 end */}
     </div>
 );
 

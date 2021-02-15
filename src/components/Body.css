@@ -81,9 +81,7 @@
     margin: 0px 60px 0px 60px;
 }
 
-/* section 1 end */
-
-/* section 2 start */
+/* section 2 start ----------------------- */
 
 .section-2 {
     background: #FAFAFA;
@@ -113,12 +111,11 @@
     padding-top: 50px;
 }
 
-/* section 3 */
+/* section 3 ----------------------- */
 
 .section-3 {
     background: #FAFAFA;
     height: 795px;
-    /* width: 1240px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,6 +207,83 @@
     color: #FFA800;
 }
 
+/* section 4 -----------------------  */
+
+.section-4 {
+    margin: 120px 0px 0px 0px;
+    height: 1290px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-4-title-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4-title {
+    font-family: "Khula";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #3E3E3E;
+    width: 449px;
+    height: 94px;
+}
+
+.section-4-explanation {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #626262;
+    width: 634px;
+    height: 31px;
+}
+
+.section-4-small-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 2;
+    min-width: 600px;
+    height: 828px;
+    padding-right: 5%;
+}
+
+.section-4-larger-card {
+    flex: 1;
+    min-width: 400px;
+    height: 828px;
+}
+
+.section-4-more-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4-more-button {
+    padding: 24px 71.5px;
+    background: #FFA800;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 1400px) {
     .section-1 {
         padding: 0px 30px;
@@ -218,6 +292,9 @@
         padding: 0px 30px;
     }
     .section-3 {
+        padding: 0px 30px;
+    }
+    .section-4 {
         padding: 0px 30px;
     }
 }
