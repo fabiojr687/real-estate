@@ -134,18 +134,3 @@
     height: 20px;
     margin: 5px 5px 0px 0px;
 }
-
-@media screen and (max-width: 1400px) {
-    .section-4-image-container {
-        width: 360px;
-    }
-    .section-4-image-container-larger {
-        width: 360px;
-    }
-    .section-4-cards-bar {
-        width: 330px;
-    }
-    .section-4-cards-bar-larger {
-        width: 330px;
-    }
-}

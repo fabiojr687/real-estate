@@ -113,29 +113,32 @@ const Body = () => (
                 </p>
             </div>
 
-            <div className="section-4-small-cards">
-                <AnnouncementCard photo={homePic} price="375,000" name="Hilltruck House"
-                    location="1187 Lake Forest City, TN" baths="2" beds="4" sqft="2980" />
+            <div className="section-4-cads">
+                <div className="section-4-small-cards">
+                    <AnnouncementCard photo={homePic} price="375,000" name="Hilltruck House"
+                        location="1187 Lake Forest City, TN" baths="2" beds="4" sqft="2980" />
 
-                <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
-                    location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+                    <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
+                        location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+                </div>
+                <div className="section-4-small-cards">
+                    <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
+                        location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
 
+                    <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
+                        location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+                </div>
 
-                <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
-                    location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
-
-                <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
-                    location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
-            </div>
-
-            <div className="section-4-larger-card">
-                <AnnouncementCard photo={homePic} price="890,000" name="Richyaris Apartment" size="larger"
-                    location="3341 Chardonnay State, WA" baths="10" beds="24" sqft="10680" />
+                <div className="section-4-larger-card">
+                    <AnnouncementCard photo={homePic} price="890,000" name="Richyaris Apartment" size="larger"
+                        location="3341 Chardonnay State, WA" baths="10" beds="24" sqft="10680" />
+                </div>
             </div>
 
             <div className="section-4-more-container">
                 <Link className="section-4-more-button">View more</Link>
             </div>
+
         </section>{/* section 4 end */}
     </div>
 );
