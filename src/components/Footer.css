@@ -1,0 +1,101 @@
+.home-footer {
+    padding: 0px 100px;
+    background-color: #282F65;
+    display: flex;
+    justify-content: space-between;
+    height: 414px;
+}
+
+.home-footer-containers {
+    padding: 80px 0px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    color: #FFFFFF;
+}
+
+.home-footer-containers ul {
+    list-style-type: none;
+}
+
+.home-footer-containers li {
+    padding: 5px 0px;
+}
+
+.home-footer-containers p {
+    padding: 5px 0px;
+}
+
+.home-footer-list-title {
+    font-family: "Khula";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.home-footer-logo {
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.home-footer-span {
+    color: #FFA800;
+}
+
+.home-footer-fato {
+    width: 256px;
+}
+
+.home-footer-stay-updated {
+    padding: 80px 0px;
+    font-family: "Khula";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.home-footer-form-input {
+    width: 293px;
+    height: 48px;
+    background: #F4F5F7;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-footer-input-box {
+    width: 100%;
+    height: 100%;
+}
+
+.home-footer-input-submit {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border: 1px solid #FFA800;
+    border-radius: 6px;
+    background: url(../images/paper-plane.svg) no-repeat scroll 7px 7px #FFA800;
+}
+
+::placeholder {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    color: #AEAEAE;
+}
+
+@media screen and (max-width: 1400px) {
+    .home-footer {
+        padding: 0px 30px;
+    }
+}
