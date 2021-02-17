@@ -31,6 +31,7 @@ const Body = () => (
                 </Link>
             </div>
         </section>        {/* section 1 end */}
+
         <section className="section-2"> {/* section 2 start */}
             <div className="section-2-title-container">
                 <h2 className="section-2-title">Here is a little about what we do</h2>
@@ -45,6 +46,7 @@ const Body = () => (
                 title="Rent a home">We’re creating a seamless online bussiness experience from
                 shopping on the largest rental network, to applying, to paying rent</SimpleCard>
         </section>{/* section 2 end */}
+
         <section className="section-3">{/* section 3 start */}
             <div className="section-3-image-ico-container">
                 <div className="section-3-image-container">
@@ -140,6 +142,43 @@ const Body = () => (
             </div>
 
         </section>{/* section 4 end */}
+
+
+        <section className="section-5">{/* section 5 start */}
+            <div className="section-5-title-container">
+                <h2 className="section-5-title">What our customers say about us</h2>
+            </div>
+            <div className="section-5-customer-container">
+                <div>
+
+                    <img className="section-5-quotation-marks" src={homeIcon} alt="Quotation marks" />
+                    <div className="section-5-right-icons">
+                        <img className="section-5-previous" src={homeIcon} alt="Previous button" />
+                        <img className="section-5-next" src={homeIcon} alt="Next button" />
+                    </div>
+
+                    <p className="section-5-customer-testimony">“We were first time home buyers relocating from the Chicago area to
+                    Louisville. We selected the Joe Hayden Real Estate Team based on reviews we saw online and we were so lucky to
+                    have chosen them. We worked with Crystal Dries and he was wonderful! He had a great knowledge of the surrounding
+                    area and knew exactly what we were looking for. He was very responsive to our needs and was always available
+                    when we needed her to be”
+                    </p>
+
+                    <p className="section-5-customer-name">Peter Carl</p>
+                    <p className="section-5-customer-profission">Product Manager of Sekawan Media</p>
+                    <div>
+                        <img className="section-5-media-icons" src={homeIcon} alt="Instagram" />
+                        <img className="section-5-media-icons" src={homeIcon} alt="Facebook" />
+                        <img className="section-5-media-icons" src={homeIcon} alt="Linkedin" />
+                    </div>
+
+                </div>
+                <div className="section-5-image-container">
+                    <img className="section-5-image" src={homePic} alt="Customer" />
+                </div>
+
+            </div>
+        </section>{/* section 5 end */}
     </div>
 );
 

@@ -211,8 +211,7 @@
 
 .section-4 {
     margin: 120px 0px 0px 0px;
-    height: 1590px;
-    /* padding: 0px 100px; */
+    height: 1490px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -272,7 +271,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 310px;
+    margin-bottom: 100px;
 }
 
 .section-4-more-button {
@@ -288,6 +287,123 @@
     color: #FFFFFF;
 }
 
+/* section 5 ---------------------------- */
+
+.section-5 {
+    height: 795px;
+}
+
+.section-5-title-container {
+    width: 100%;
+}
+
+.section-5-title {
+    height: 47px;
+    font-family: "Khula";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: right;
+    color: #3E3E3E;
+    padding: 0px 100px 100px 100px;
+}
+
+.section-5-customer-container {
+    background: #FAFAFA;
+    padding: 0px 100px;
+    height: 503px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.section-5-customer-testimony {
+    width: 713px;
+    height: 186px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #626262;
+    margin-top: 40px;
+}
+
+.section-5-customer-name {
+    width: 94px;
+    height: 34px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170%;
+    color: #3E3E3E;
+}
+
+.section-5-customer-profission {
+    width: 227px;
+    height: 24px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    color: #626262;
+}
+
+.section-5-quotation-marks {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: -30px;
+}
+
+.section-5-right-icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 723px;
+}
+
+.section-5-previous {
+    height: 30px;
+    width: 30px;
+}
+
+.section-5-next {
+    height: 30px;
+    width: 30px;
+}
+
+.section-5-media-icons {
+    height: 15px;
+    width: 15px;
+    background-color: #FFA800;
+    margin: 10px;
+}
+
+.section-5-image-container {
+    width: 400px;
+    height: 523px;
+    overflow: hidden;
+    position: absolute;
+    top: -80px;
+    right: 100px;
+    background-color: #C4C4C4;
+    border-radius: 8px;
+}
+
+.section-5-image {
+    width: 487px;
+    height: 684px;
+}
+
 @media screen and (max-width: 1400px) {
     .section-1 {
         padding: 0px 30px;
@@ -300,5 +416,11 @@
     }
     .section-4-cads {
         padding: 0px 30px;
+    }
+    .section-5-title {
+        padding: 0px 30px;
+    }
+    .section-5-customer-container {
+        padding: 0px 30px 100px 30px;
     }
 }
