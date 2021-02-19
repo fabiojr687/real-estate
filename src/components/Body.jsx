@@ -1,6 +1,10 @@
 import React from 'react';
 import './Body.css';
 import homePic from '../images/home.jpg';
+import learnMoreIcon from '../images/learn-more-icon.svg';
+import playIcon from '../images/play-icon.svg';
+import handshakeIcon from '../images/handshake-icon.svg';
+import keyIcon from '../images/key-icon.svg';
 import buildingIcon from '../images/building-icon.svg';
 import homeIcon from '../images/home-icon.svg';
 import quoteIcon from '../images/quote-icon.svg';
@@ -25,14 +29,22 @@ const Body = () => (
                 real estate agents and property developers in the country.
                 So, what are you waiting for? Let’s talk business!
             </p>
-                <Link className="section-1-texts-link" to="/">Learn more</Link>
+                <Link className="section-1-texts-link" to="/">
+                    Learn more
+                    <span >
+                        <img className="section-1-learn-more" src={learnMoreIcon}
+                            alt="Learn more arrow" />
+                    </span>
+                </Link>
             </div>
 
             <div className="section-1-image-container">
                 <img className="section-1-image" src={homePic} alt="house" />
                 <Link className="section-1-image-play" to="/">
                     <span className="section-1-play-button"
-                        role="button">|&gt;</span>
+                        role="button">
+                        <img className="section-1-pay-icon" src={playIcon} alt="Play icon" />
+                    </span>
                     <p>Watch our history!</p>
                 </Link>
             </div>
@@ -42,15 +54,17 @@ const Body = () => (
             <div className="section-2-title-container">
                 <h2 className="section-2-title">Here is a little about what we do</h2>
             </div>
-            <SimpleCard classes="section-2-options-container" icon={homeIcon} iconAlt="Buy a home"
-                title="Buy a home">Find your place with immersive photo experience and the most
+            <div className="section-2-cards-container">
+                <SimpleCard icon={homeIcon} iconAlt="Buy a home"
+                    title="Buy a home">Find your place with immersive photo experience and the most
             listings, including things you won’t find anywhere else</SimpleCard>
-            <SimpleCard classes="section-2-options-container" icon={homeIcon} iconAlt="Sell a home"
-                title="Sell a home">Wheather you sell with new Zilow offers or take another
+                <SimpleCard icon={homeIcon} iconAlt="Sell a home"
+                    title="Sell a home">Wheather you sell with new Zilow offers or take another
                 approach, we’ll help you navigate the path to a successful sale</SimpleCard>
-            <SimpleCard classes="section-2-options-container" icon={homeIcon} iconAlt="Rent a home"
-                title="Rent a home">We’re creating a seamless online bussiness experience from
+                <SimpleCard icon={homeIcon} iconAlt="Rent a home"
+                    title="Rent a home">We’re creating a seamless online bussiness experience from
                 shopping on the largest rental network, to applying, to paying rent</SimpleCard>
+            </div>
         </section>{/* section 2 end */}
 
         <section className="section-3">{/* section 3 start */}
@@ -60,10 +74,10 @@ const Body = () => (
                 </div>
 
                 <div className="section-3-icon-1-container">
-                    <img className="section-3-icon" src={homeIcon} alt="Negotiation" />
+                    <img className="section-3-icon" src={handshakeIcon} alt="Negotiation" />
                 </div>
                 <div className="section-3-icon-2-container">
-                    <img className="section-3-icon" src={homeIcon} alt="Negotiation" />
+                    <img className="section-3-icon" src={keyIcon} alt="House kay" />
                 </div>
             </div>
             <div className="section-3-texts-container">

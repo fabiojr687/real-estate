@@ -39,8 +39,18 @@
     font-size: 16px;
     line-height: 150%;
     color: #FFA800;
-    width: 83px;
-    height: 24px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1-learn-more {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .section-1-image-container {
@@ -81,19 +91,22 @@
     margin: 0px 60px 0px 60px;
 }
 
+.section-1-pay-icon {
+    width: 56px;
+    height: 56px;
+}
+
 /* section 2 start ----------------------- */
 
 .section-2 {
     background: #FAFAFA;
-    height: 795px;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 0px 100px;
 }
 
 .section-2-title-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -109,6 +122,11 @@
     text-align: center;
     color: #3E3E3E;
     padding-top: 50px;
+}
+
+.section-2-cards-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* section 3 ----------------------- */
@@ -149,6 +167,9 @@
     left: 0px;
     top: 90px;
     box-shadow: 5px -4px 10px rgba(23, 153, 182, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-3-icon-2-container {
@@ -161,10 +182,13 @@
     right: 0px;
     bottom: 90px;
     box-shadow: -5px -4px 10px rgba(23, 182, 115, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-3-icon {
-    width: 100%;
+    width: 70%;
 }
 
 .section-3-texts-container {

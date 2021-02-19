@@ -5,7 +5,7 @@ import HeaderList from './HeaderList';
 import SearchBar from './SearchBar';
 
 const Header = () => (
-    // section 1 start
+    //header section start
     <section className="header-section">
          <HeaderList />
         <div className="header-image-border">
@@ -20,7 +20,7 @@ const Header = () => (
             </div>
         </div>
         <SearchBar />
-    </section>//section 1 end 
+    </section>// header section end 
 );
 
 export default Header;
