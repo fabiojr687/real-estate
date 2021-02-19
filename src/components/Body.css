@@ -210,14 +210,13 @@
 /* section 4 -----------------------  */
 
 .section-4 {
-    margin: 120px 0px 0px 0px;
-    height: 1490px;
+    margin: 100px 0px 0px 0px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .section-4-title-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -267,11 +266,12 @@
 }
 
 .section-4-more-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .section-4-more-button {

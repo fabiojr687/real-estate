@@ -1,13 +1,14 @@
 import React from 'react';
 import './Body.css';
 import homePic from '../images/home.jpg';
+import buildingIcon from '../images/building-icon.svg';
+import homeIcon from '../images/home-icon.svg';
 import quoteIcon from '../images/quote-icon.svg';
 import arrowRightIcon from '../images/arrow-right-icon.svg';
 import instagramIcon from '../images/instagram-icon.svg';
 import facebookIcon from '../images/facebook-icon.svg';
 import linkedinIcon from '../images/linkedin-icon.svg';
 import { Link } from 'react-router-dom';
-import homeIcon from '../images/home-ico.svg';
 import SimpleCard from '../components/SimpleCard';
 import AnnouncementCard from '../components/AnnouncementCard';
 
@@ -123,27 +124,32 @@ const Body = () => (
             <div className="section-4-cads">
                 <div className="section-4-small-cards">
                     <AnnouncementCard photo={homePic} price="375,000" name="Hilltruck House"
-                        location="1187 Lake Forest City, TN" baths="2" beds="4" sqft="2980" />
+                        iconType={homeIcon} location="1187 Lake Forest City, TN"
+                        baths="2" beds="4" sqft="2980" />
 
-                    <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
-                        location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+                    <AnnouncementCard photo={homePic} price="230,000" name="Horizon Stylish House"
+                        iconType={homeIcon} location="00 W 22nd  New York, NY"
+                        baths="8" beds="12" sqft="6250" />
                 </div>
                 <div className="section-4-small-cards">
                     <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
-                        location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+                        iconType={buildingIcon} location="2120 Marshville Road, IA"
+                        baths="8" beds="12" sqft="6250" />
 
-                    <AnnouncementCard photo={homePic} price="569,000" name="Symphony Dyer"
-                        location="2120 Marshville Road, IA" baths="8" beds="12" sqft="6250" />
+                    <AnnouncementCard photo={homePic} price="410,000" name="Spring Wood House"
+                        iconType={homeIcon} location="4366 Terra Cotta Streret, MN"
+                        baths="8" beds="12" sqft="6250" />
                 </div>
 
                 <div className="section-4-larger-card">
-                    <AnnouncementCard photo={homePic} price="890,000" name="Richyaris Apartment" size="larger"
-                        location="3341 Chardonnay State, WA" baths="10" beds="24" sqft="10680" />
+                    <AnnouncementCard photo={homePic} price="890,000" name="Richyaris Apartment"
+                        size="larger" location="3341 Chardonnay State, WA" iconType={buildingIcon}
+                        baths="10" beds="24" sqft="10680" />
                 </div>
             </div>
 
             <div className="section-4-more-container">
-                <Link className="section-4-more-button">View more</Link>
+                <Link className="section-4-more-button" to="/">View more</Link>
             </div>
 
         </section>{/* section 4 end */}
