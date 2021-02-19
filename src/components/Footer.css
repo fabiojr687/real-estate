@@ -40,6 +40,14 @@
     font-weight: bold;
     font-size: 27px;
     line-height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.home-footer-fato-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
 }
 
 .home-footer-span {

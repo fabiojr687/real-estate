@@ -1,6 +1,11 @@
 import React from 'react';
 import './Body.css';
 import homePic from '../images/home.jpg';
+import quoteIcon from '../images/quote-icon.svg';
+import arrowRightIcon from '../images/arrow-right-icon.svg';
+import instagramIcon from '../images/instagram-icon.svg';
+import facebookIcon from '../images/facebook-icon.svg';
+import linkedinIcon from '../images/linkedin-icon.svg';
 import { Link } from 'react-router-dom';
 import homeIcon from '../images/home-ico.svg';
 import SimpleCard from '../components/SimpleCard';
@@ -145,16 +150,16 @@ const Body = () => (
 
 
         <section className="section-5">{/* section 5 start */}
-            <div className="section-5-title-container">
-                <h2 className="section-5-title">What our customers say about us</h2>
-            </div>
+            <h2 className="section-5-title">What our customers say about us</h2>
             <div className="section-5-customer-container">
                 <div>
-
-                    <img className="section-5-quotation-marks" src={homeIcon} alt="Quotation marks" />
+                    <img className="section-5-quotation-marks" src={quoteIcon}
+                        alt="Quotation marks" />
                     <div className="section-5-right-icons">
-                        <img className="section-5-previous" src={homeIcon} alt="Previous button" />
-                        <img className="section-5-next" src={homeIcon} alt="Next button" />
+                        <img className="section-5-previous" src={arrowRightIcon}
+                            alt="Previous button" />
+                        <img className="section-5-next" src={arrowRightIcon}
+                            alt="Next button" />
                     </div>
 
                     <p className="section-5-customer-testimony">“We were first time home buyers relocating from the Chicago area to
@@ -167,9 +172,9 @@ const Body = () => (
                     <p className="section-5-customer-name">Peter Carl</p>
                     <p className="section-5-customer-profission">Product Manager of Sekawan Media</p>
                     <div>
-                        <img className="section-5-media-icons" src={homeIcon} alt="Instagram" />
-                        <img className="section-5-media-icons" src={homeIcon} alt="Facebook" />
-                        <img className="section-5-media-icons" src={homeIcon} alt="Linkedin" />
+                        <img className="section-5-media-icons" src={instagramIcon} alt="Instagram" />
+                        <img className="section-5-media-icons" src={facebookIcon} alt="Facebook" />
+                        <img className="section-5-media-icons" src={linkedinIcon} alt="Linkedin" />
                     </div>
 
                 </div>
